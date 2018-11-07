@@ -6,9 +6,9 @@ provisioner:
   name: shell
 
 platforms:
-  - name: vbox/mysqle4
+  - name: vbox/nginxe4
     driver:
-      box: mysql64
+      box: nginx64
 
 verifier:
   name: inspec
