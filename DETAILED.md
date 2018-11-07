@@ -1,5 +1,6 @@
 ## Before we start
 
+* **Some of the terms and commands that will be used are described here**
 * Remote repository is our VCS server (in this example GitHub).
 * The terms remote repository and GitHub will be used interchangebly from now on.
 * Local repository is the repository cloned from GitHub on our local machine.
@@ -7,6 +8,8 @@
 * ``` git add <some_file> ``` is an action that will prepare the content  that will be commited and eventually pushed to the remote repository
 * ``` git commit ``` is an action that records the changes to the repository
 * ``` git push ``` is an action that pushes the locally recorded repository changes to the remote repository
+
+* **Additional informational sources are provided below** 
 
 * If you want further information on how to use git, you may find it [here](https://git-scm.com/docs)
 
