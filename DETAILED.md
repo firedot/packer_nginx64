@@ -8,11 +8,11 @@
 * ``` git commit ``` is an action that records the changes to the repository
 * ``` git push ``` is an action that pushes the locally recorded repository changes to the remote repository
 
-If you want further information on how to use git, you may find it [here](https://git-scm.com/docs)
+* If you want further information on how to use git, you may find it [here](https://git-scm.com/docs)
 
-You could find what a pull request is [here](https://help.github.com/articles/about-pull-requests/)
-You could find how to create a pull request [here](https://help.github.com/articles/creating-a-pull-request/i)
-You could find how to merge your pull request [here](https://help.github.com/articles/merging-a-pull-request/)
+* You could find what a pull request is [here](https://help.github.com/articles/about-pull-requests/)
+* You could find how to create a pull request [here](https://help.github.com/articles/creating-a-pull-request/i)
+* You could find how to merge your pull request [here](https://help.github.com/articles/merging-a-pull-request/)
 
 
 ## Below you will find the detailed process used to create this repository
