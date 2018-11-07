@@ -32,7 +32,13 @@ apt-get -y install build-essential linux-headers-$(uname -r)
 service virtualbox-ose-guest-utils stop
 rmmod vboxguest
 apt-get purge -y virtualbox-ose-guest-x11 virtualbox-ose-guest-dkms virtualbox-ose-guest-utils
-apt-get install -y dkms
+#apt-get install -y dkms
+
+apt-get install -y virtualbox-guest-dkms-hwe
+apt-get install -y virtualbox-guest-source-hwe
+apt-get install -y virtualbox-guest-utils
+apt-get install -y virtualbox-guest-utils-hwe
+apt-get install -y virtualbox-guest-x11-hwe
 
 # Install the VirtualBox guest additions
 VBOX_VERSION=$(cat /home/vagrant/.vbox_version)
