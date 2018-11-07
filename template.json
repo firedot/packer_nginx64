@@ -1,7 +1,7 @@
 {
   "variables": {
     "name": "firedot/ubuntu1604",
-    "build_name": "mysql64",
+    "build_name": "nginx64",
     "build_cpu_cores": "2",
     "build_memory": "1024",
     "cpu_cores": "1",
