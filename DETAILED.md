@@ -1,12 +1,12 @@
 ## Before we start
 
-Remote repository is our VCS server (in this example GitHub).
-The terms remote repository and GitHub will be used interchangebly from now on.
-Local repository is the repository cloned from GitHub on our local machine.
+* Remote repository is our VCS server (in this example GitHub).
+* The terms remote repository and GitHub will be used interchangebly from now on.
+* Local repository is the repository cloned from GitHub on our local machine.
 
-``` git add <some_file> ``` is an action that will prepare the content  that will be commited and eventually pushed to the remote repository
-``` git commit ``` is an action that records the changes to the repository
-``` git push ``` is an action that pushes the locally recorded repository changes to the remote repository
+* ``` git add <some_file> ``` is an action that will prepare the content  that will be commited and eventually pushed to the remote repository
+* ``` git commit ``` is an action that records the changes to the repository
+* ``` git push ``` is an action that pushes the locally recorded repository changes to the remote repository
 
 If you want further information on how to use git, you may find it [here](https://git-scm.com/docs)
 
@@ -158,9 +158,9 @@ provisioner:
   name: shell
 
 platforms:
-  - name: vbox/mysqle4
+  - name: vbox/nginxe4
     driver:
-      box: mysql64
+      box: nginx64
 
 verifier:
   name: inspec
