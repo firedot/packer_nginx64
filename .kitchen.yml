@@ -6,7 +6,7 @@ provisioner:
   name: shell
 
 platforms:
-  - name: vbox/nginxe4
+  - name: vbox/nginx
     driver:
       box: nginx64
 
