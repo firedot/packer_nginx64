@@ -4,7 +4,8 @@
 * Remote repository is our VCS server (in this example GitHub).
 * The terms remote repository and GitHub will be used interchangebly from now on.
 * Local repository is the repository cloned from GitHub on our local machine.
-
+* Bundler is a tool that provides a consistent environment for Ruby projects by tracking and installing the exact gems (Ruby     software packages) and versions that are needed. Bundler itself comes as a gem. 
+* A Gemfile is a list of Ruby software packages that will be installed with bundler.
 * ``` git add <some_file> ``` is an action that will prepare the content  that will be commited and eventually pushed to the remote repository
 * ``` git commit ``` is an action that records the changes to the repository
 * ``` git push ``` is an action that pushes the locally recorded repository changes to the remote repository
@@ -213,6 +214,58 @@ git push --set-upstream origin addKitchenTests
 ```
 - Go to GitHub
 - Create pull request
+- Merge the pull request
+
+- Go to the local repository
+- Checkout to the master branch
+
+```
+git checkout master
+```
+- Pull the changes from GitHub to the master branch in the local repository
+
+```
+git pull origin master
+```
+
+- Create a new branch 
+
+``` 
+git checkout -b "addKitchenGemfile"
+```
+
+- Create a new file called ```Gemfile```
+
+```
+touch Gemfile
+```
+
+- Add the gems that need to be installed in order for kitchen to run tests
+
+```
+source "https://rubygems.org"
+
+gem "kitchen-vagrant"
+gem "kitchen-inspec"
+gem "test-kitchen"
+```
+
+- Add ```Gemfile``` for commit
+
+```
+git add Gemfile
+```
+- Commit the changes
+
+```
+git commit -m "Added Gemfile with gems needed to perform tests with Kitchen"
+```
+- Push the changes to GitHub
+
+```
+git push --set-upstream origin addKitchenGemfile
+```
+- Create a pull request
 - Merge the pull request
 
 - Go to the local repository
