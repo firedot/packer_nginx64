@@ -78,13 +78,13 @@ rbenv local 2.3.1
 
 # Testing phase: 
 
-- First make the box that we built available to Vagrant by adding it: 
+- First, make the box that we built available to Vagrant by adding it: 
 
 ```
 vagrant box add --name nginx64 nginx64.box
 ```
 
-- To perform the testing run the following command: 
+- To perform the testing, run the following command: 
 
 ``` 
 bundle exec kitchen test
