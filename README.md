@@ -37,7 +37,7 @@ packer build template.json
 
 ## Testing the box that is backed by packer with Kitchen
 
-**NOTE** The following instructions are intended for MacOS users!
+**NOTE**: The following instructions are intended for MacOS users! :**NOTE**
 
 # Prerequisites: 
 
