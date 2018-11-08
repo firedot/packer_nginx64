@@ -47,8 +47,7 @@ mount -o loop $VBOX_ISO /mnt
 yes|sh /mnt/VBoxLinuxAdditions.run
 umount /mnt
 
-# Install mysql
-
+# Install nginx
 export DEBIAN_FRONTEND=noninteractive
 apt-get install -y nginx
 
