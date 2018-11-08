@@ -78,7 +78,7 @@ rbenv local 2.3.1
 
 # Testing phase: 
 
-- Firts add the box that packer built: 
+- First make the box that we built available to Vagrant by adding it: 
 
 ```
 vagrant box add --name nginx64 nginx64.box
