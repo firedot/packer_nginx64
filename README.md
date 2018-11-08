@@ -91,4 +91,4 @@ bundle exec kitchen test
 ```
 
 - If the test is scuccessful, you shoud see an output similar to the on the picture below: 
-![Alt text](pics/success.png?raw=true "Successful test")
+![Alt text](pics/Success.png?raw=true "Successful test")
