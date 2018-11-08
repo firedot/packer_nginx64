@@ -90,5 +90,5 @@ vagrant box add --name nginx64 nginx64.box
 bundle exec kitchen test
 ```
 
-- If the test is scuccessful, you shoud see an output similar to the on the picture below: 
+- If the test is scuccessful, you shoud see an output similar to the one in the screenshot below: 
 ![Alt text](pics/Success.png?raw=true "Successful test")
